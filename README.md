@@ -21,7 +21,7 @@
 ## 🛠️ Installation
 ```bash
 # Clone the repo
-git clone https://github.com/Vekvi-BugHunter/jsniper.git
+git clone https://github.com/Vekvi-BugHunter/JSniper.git
 cd jsniper
 
 # Install Python requirements
