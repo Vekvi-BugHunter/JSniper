@@ -1,0 +1,8 @@
+/
+/wishlist
+/sitemap.html
+/idea-lab.html
+/catapult.html
+/account
+/new-in
+/watch-tjc
