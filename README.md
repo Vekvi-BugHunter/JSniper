@@ -28,7 +28,7 @@ cd jsniper
 pip install -r requirements.txt
 
 # Install TruffleHog (ensure it's in PATH)
-pipx install trufflehog  # or use: pip install trufflehog
+sudo apt install trufflehog  # or use: pip install trufflehog
 ```
 
 ## 🚀 Usage
