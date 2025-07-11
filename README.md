@@ -22,7 +22,7 @@
 ```bash
 # Clone the repo
 git clone https://github.com/Vekvi-BugHunter/JSniper.git
-cd jsniper
+cd JSniper
 
 # Install Python requirements
 pip install -r requirements.txt
