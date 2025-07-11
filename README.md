@@ -1,6 +1,6 @@
-# jsniper
+# JSniper
 
-**jsniper** is a Python-based tool to automate JavaScript endpoint discovery and secret leakage analysis in internal/UAT web apps.
+**JSniper** is a Python-based tool to automate JavaScript endpoint discovery and secret leakage analysis in web apps.
 
 ## 🔥 Features
 - Custom path file support via `--path`
@@ -8,12 +8,11 @@
 - TruffleHog integration with deduplicated secret results
 - In-scope endpoint extraction from downloaded files
 - Output neatly organized under `output/<domain>/`
-- Random ASCII banner for aesthetic startup vibes 😎
 
 ## 🛠️ Installation
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/jsniper.git
+git clone https://github.com/Vekvi-BugHunter/jsniper.git
 cd jsniper
 
 # Install Python requirements
@@ -25,7 +24,7 @@ pipx install trufflehog  # or use: pip install trufflehog
 
 ## 🚀 Usage
 ```bash
-python3 main.py https://uat.example.com -p path.txt
+python3 main.py https://example.com -p path.txt
 ```
 
 ### Optional:
@@ -34,7 +33,7 @@ python3 main.py https://uat.example.com -p path.txt
 
 ## 📂 Output Example
 ```
-output/uat.example.com/
+output/example.com/
 ├── js/               # Downloaded JS + HTML files
 ├── js-urls.txt       # All <script src=...> links found
 ├── endpoints.txt     # Extracted in-scope API endpoints
@@ -65,7 +64,7 @@ output/uat.example.com/
 This tool is intended for internal pentesting & educational purposes only. Do not use it on unauthorized systems.
 
 ## 📧 Contact
-Made with 💻 by [Your Name] - [yourhandle@protonmail.com] (or GitHub handle)
+Made with 💗 by [Vekvi-BugHunter] - [demotivator2001@gmail.com] (or GitHub handle)
 
 ---
 MIT License | Star ⭐ if helpful!
