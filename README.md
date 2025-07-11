@@ -7,7 +7,6 @@
 ██   ██║╚════██║██║╚██╗██║██║██╔═══╝ ██╔══╝  ██╔══██╗
 ╚█████╔╝███████║██║ ╚████║██║██║     ███████╗██║  ██║
  ╚════╝ ╚══════╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝ @vevki
-...
 ```
 
 **JSniper** is a Python-based tool to automate JavaScript endpoint discovery and secret leakage analysis in web apps.
